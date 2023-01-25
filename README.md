@@ -3,7 +3,9 @@
 ### Our Gitflow ###
 
 1. make a branch under develop in GitHub, say, testing-branch
-2. git clone files onto local machine the first time, or git pull subsequent
+2. git clone files onto local machine the first time
+ Subsequent times: git fetch --prune origin // allows you to review changes without merging (preferred)
+ Or:               git pull origin/main // performs a fetch + merge all in one, no review possible
 3. git branch -a
 4. list won't show branch under develop
 5. git checkout development
